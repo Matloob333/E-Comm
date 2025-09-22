@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
+    allowedHosts: ['e-comm-sd27.onrender.com'],
   },
   preview: {
     host: '0.0.0.0',
